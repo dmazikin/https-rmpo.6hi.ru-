@@ -1,0 +1,35 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet';
+@import "base/variables";
+@import "base/mixins";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@import "blocks/header-nav-top";
+@import "blocks/header-center";
